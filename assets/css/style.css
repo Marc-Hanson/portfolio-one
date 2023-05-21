@@ -3,3 +3,11 @@
 /* #CBB279 beige, rgb(203, 178, 121) */
 /* #E1D4BB sand, rgb(225, 212, 187) */
 /* #EEEEEE grey, rgb(238, 238, 238) */
+
+h1 {
+    color: red;
+}
+
+p {
+    color: blue;
+}
