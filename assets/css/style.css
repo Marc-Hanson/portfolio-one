@@ -21,6 +21,7 @@ header {
     height: 5%;
     width: 100%;
     position: relative;
+    border-bottom: solid 5px #CBB279;
 }
 
 #logo {
@@ -69,6 +70,70 @@ nav {
 .active {
     border-bottom: 1px solid #CBB279;
     font-weight: bold;
+}
+
+/* about section */
+
+.about {
+    width: 60%;
+    margin: 0 auto;
+    padding-top: 5%;
+}
+
+.about h2 {
+    text-decoration-line: underline;
+    text-decoration-color: #CBB279;
+}
+
+span>h2 {
+    font-size: 2rem;
+    text-decoration: underline;
+    text-decoration-color: #CBB279;
+}
+
+span>p {
+    padding: 5%;
+}
+
+#right-image {
+    height: 40%;
+    width: 40%;
+    border-radius: 5%;
+    display: inline-block;
+    text-align: right;
+}
+
+#left-text {
+    width: 40%;
+    float: left;
+    padding: 0 5%;
+    text-align: left;
+}
+
+#left-image {
+    height: 40%;
+    width: 40%;
+    border-radius: 5%;
+    display: inline-block;
+    text-align: left;
+}
+
+#right-text {
+    width: 40%;
+    float: right;
+    padding: 0 5%;
+    text-align: right;
+}
+
+/* footer */
+
+footer {
+    background: #537188;
+    height: 5%;
+    width: 100%;
+    position: relative;
+    border-top: solid 5px #CBB279;
+    margin-top: 5%;
 }
 
 /* color palette for use across site */
