@@ -1,13 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@500&family=Great+Vibes&family=Montserrat+Alternates:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+body {
+    background: #EEEEEE;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: 300;
+    color: #537188;
+    text-align: center;
+}
+
+/* heading and logo */
+
+header {
+    background: #537188;
+    height: 5%;
+    width: 100%;
+    position: relative;
+}
+
+#logo {
+    width: 125px;
+    height: 125px;
+    border-radius: 50%;
+    float: left;
+    position: absolute;
+    left: 50px;
+    top: 10px;
+}
+
+header h1 {
+    padding-top: 10px;
+    color: #CBB279;
+    font-family: 'Great Vibes', cursive;
+    font-size: 7rem;
+    display: inline-block;
+}
+
+/* nav links */
+
+nav {
+    float: right;
+    display: inline-block;
+    position: absolute;
+    bottom: 10px;
+    right: 0;
+}
+
+#menu li {
+    float: right;
+    list-style-type: none;
+    margin-right: 20px;
+}
+
+#menu a {
+    text-decoration: none;
+    color: #CBB279;
+}
+
+#menu a:hover {
+    color: #E1D4BB;
+}
+
+.active {
+    border-bottom: 1px solid #CBB279;
+    font-weight: bold;
+}
+
 /* color palette for use across site */
 /* #537188 blue, rgb(83, 113, 136) */
 /* #CBB279 beige, rgb(203, 178, 121) */
 /* #E1D4BB sand, rgb(225, 212, 187) */
 /* #EEEEEE grey, rgb(238, 238, 238) */
 
-h1 {
-    color: red;
-}
+/*  font-family: 'Catamaran',
+    sans-serif;
 
-p {
-    color: blue;
-}
+    font-family: 'Great Vibes',
+    cursive; */
