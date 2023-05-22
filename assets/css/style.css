@@ -125,7 +125,7 @@ span>p {
     text-align: right;
 }
 
-/* footer */
+/* footer and social links*/
 
 footer {
     background: #537188;
@@ -136,14 +136,17 @@ footer {
     margin-top: 5%;
 }
 
-/* color palette for use across site */
-/* #537188 blue, rgb(83, 113, 136) */
-/* #CBB279 beige, rgb(203, 178, 121) */
-/* #E1D4BB sand, rgb(225, 212, 187) */
-/* #EEEEEE grey, rgb(238, 238, 238) */
+footer li {
+    text-align: center;
+    display: inline;
+}
 
-/*  font-family: 'Catamaran',
-    sans-serif;
+footer i {
+    margin: 5%;
+    font-size: 500%;
+    color: #CBB279;
+}
 
-    font-family: 'Great Vibes',
-    cursive; */
+footer i:hover {
+    color: #E1D4BB;
+}
