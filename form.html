@@ -11,72 +11,80 @@
     <title>Flutterwing Academy</title>
 </head>
 
-<body>
-    <div id="page-container">
-        <header id="header">
-            <img id="logo" src="assets/images/flutterwing.jpg"
-                alt="Company logo for the Flutterwing Academy, resembling a butterfly.">
-            <h1>Flutterwing Academy</h1>
-            <nav>
-                <ul id="menu">
+<div id="wrapper">
+
+    <body>
+        <div id="page-container">
+            <header id="header">
+                <img id="logo" src="assets/images/flutterwing.jpg"
+                    alt="Company logo for the Flutterwing Academy, resembling a butterfly.">
+                <h1>Flutterwing Academy</h1>
+                <nav>
+                    <ul id="menu">
+                        <li>
+                            <a href="form.html" class="active">Applications</a>
+                        </li>
+                        <li>
+                            <a href="gallery.html">Gallery</a>
+                        </li>
+                        <li>
+                            <a href="index.html">Home</a>
+                        </li>
+                    </ul>
+                </nav>
+            </header>
+            <div id="content-wrap">
+                <section class="form-section">
+                    <form class="signup-form" method="#" action="success.html">
+                        <h2>Let's make something magical, together!</h2>
+                        <label for="fname">First Name</label>
+                        <input type="text" class="text-input" id="fname" name="first_name" required>
+                        <br>
+                        <label for="lname">Last Name</label>
+                        <input type="text" class="text-input" id="lname" name="last_name" required>
+                        <br>
+                        <label for="email">Email Address</label>
+                        <input type="email" class="text-input" id="email" name="email_address" required>
+                        <br>
+                        <label for="wizard">Wizard</label>
+                        <input type="radio" id="wizard" value="wizard" name="child_gender" selected>
+                        <label for="witch">Witch</label>
+                        <input type="radio" id="witch" value="witch" name="child_gender" required>
+                        <br>
+                        <label for="cname">Childs Name</label>
+                        <input type="text" class="text-input" id="cname" name="childs_name" required>
+                        <br>
+                        <input type="submit" class="join-button" value="Send!">
+                    </form>
+                </section>
+            </div>
+            <footer id="footer">
+                <ul>
                     <li>
-                        <a href="form.html" class="active">Applications</a>
+                        <a href="https://www.twitter.com" target="_blank" rel="noopener"
+                            aria-label="Visit our Facebook page (opens in a new tab)"><i
+                                class="fa-brands fa-square-twitter fa-2xl"></i></a>
                     </li>
                     <li>
-                        <a href="gallery.html">Gallery</a>
+                        <a href="https://www.facebook.com" target="_blank" rel="noopener"
+                            aria-label="Visit our Facebook page (opens in a new tab)"><i
+                                class="fa-brands fa-square-facebook fa-2xl"></i></a>
                     </li>
                     <li>
-                        <a href="index.html">Home</a>
+                        <a href="https://www.youtube.com" target="_blank" rel="noopener"
+                            aria-label="Visit our Facebook page (opens in a new tab)"><i
+                                class="fa-brands fa-square-youtube fa-2xl"></i></a>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com" target="_blank" rel="noopener"
+                            aria-label="Visit our Facebook page (opens in a new tab)"><i
+                                class="fa-brands fa-square-instagram fa-2xl"></i></a>
                     </li>
                 </ul>
-            </nav>
-        </header>
-        <div id="content-wrap">
-            <section class="form-section">
-                <form class="signup-form" method="post" action="https://formdump.codeinstitute.net/">
-                    <h2>Let's get you signed up!<i class="fas fa-heartbeat"></i></h2>
-                    <label for="fname">First Name</label>
-                    <input type="text" class="text-input" id="fname" name="first_name" required>
-                    <label for="lname">Last Name</label>
-                    <input type="text" class="text-input" id="lname" name="last_name" required>
-                    <label for="email">Email Address</label>
-                    <input type="email" class="text-input" id="email" name="email_address" required>
-                    <label for="road">Road</label>
-                    <input type="radio" id="road" value="road" name="running_preference" required>
-                    <label for="trail">Trail</label>
-                    <input type="radio" id="trail" value="trail" name="running_preference">
-                    <label for="both">Both</label>
-                    <input type="radio" id="both" value="both" name="running_preference">
-                    <input type="submit" class="join-button" value="Let's Run!">
-                </form>
-            </section>
+            </footer>
         </div>
-        <footer id="footer">
-            <ul>
-                <li>
-                    <a href="https://www.twitter.com" target="_blank" rel="noopener"
-                        aria-label="Visit our Facebook page (opens in a new tab)"><i
-                            class="fa-brands fa-square-twitter fa-2xl"></i></a>
-                </li>
-                <li>
-                    <a href="https://www.facebook.com" target="_blank" rel="noopener"
-                        aria-label="Visit our Facebook page (opens in a new tab)"><i
-                            class="fa-brands fa-square-facebook fa-2xl"></i></a>
-                </li>
-                <li>
-                    <a href="https://www.youtube.com" target="_blank" rel="noopener"
-                        aria-label="Visit our Facebook page (opens in a new tab)"><i
-                            class="fa-brands fa-square-youtube fa-2xl"></i></a>
-                </li>
-                <li>
-                    <a href="https://www.instagram.com" target="_blank" rel="noopener"
-                        aria-label="Visit our Facebook page (opens in a new tab)"><i
-                            class="fa-brands fa-square-instagram fa-2xl"></i></a>
-                </li>
-            </ul>
-        </footer>
-    </div>
-    <script src="https://kit.fontawesome.com/ab5728490f.js" crossorigin="anonymous"></script>
-</body>
+        <script src="https://kit.fontawesome.com/ab5728490f.js" crossorigin="anonymous"></script>
+    </body>
+</div>
 
 </html>

@@ -175,6 +175,34 @@ span>p {
 
 /* form */
 
+.signup-form {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.signup-form h2 {
+    font-size: 200%;
+    padding-bottom: 1rem;
+}
+
 /* application successful */
+
+.application {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.application h1 {
+    font-size: 200%;
+    padding-bottom: 1rem;
+}
 
 /* responsive elements */
