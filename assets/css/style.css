@@ -106,7 +106,7 @@ nav {
     text-align: left;
     vertical-align: top;
     display: inline-block;
-    padding: 5%;
+    margin: 5%;
 }
 
 #left-text h2 {
@@ -131,7 +131,7 @@ nav {
     text-align: right;
     vertical-align: top;
     display: inline-block;
-    padding: 5%;
+    margin: 5%;
 }
 
 #right-text h2 {
@@ -218,8 +218,7 @@ nav {
     background-color: #CBB279;
     border: 1px solid #537188;
     color: #537188;
-    padding: 0.5rem 1rem;
-    margin-bottom: 10vh;
+    padding: 10px 20px;
 }
 
 .join-button:hover {
@@ -283,9 +282,11 @@ nav {
         display: none;
     }
 
+    .form-section {
+        height: 600px;
+    }
+
     .signup-form {
         width: 80%;
-        margin: 10% 0;
-        padding: 10% 0;
     }
 }
