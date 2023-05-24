@@ -39,7 +39,6 @@ body {
     width: 125px;
     height: 125px;
     border-radius: 50%;
-    float: left;
     position: absolute;
     left: 50px;
     top: 20px;
@@ -55,14 +54,13 @@ body {
 /* nav links */
 
 nav {
-    float: right;
     position: absolute;
     bottom: 10px;
     right: 0;
 }
 
 #menu li {
-    float: right;
+    display: inline-block;
     list-style-type: none;
     padding-right: 20px;
 }
@@ -106,7 +104,7 @@ nav {
     text-align: left;
     vertical-align: top;
     display: inline-block;
-    margin: 5%;
+    padding: 5%;
 }
 
 #left-text h2 {
@@ -131,7 +129,7 @@ nav {
     text-align: right;
     vertical-align: top;
     display: inline-block;
-    margin: 5%;
+    padding: 5%;
 }
 
 #right-text h2 {
@@ -256,6 +254,7 @@ nav {
 
     #pictures {
         column-count: 2;
+        background-color: #000;
     }
 
 }
@@ -264,12 +263,17 @@ nav {
 
 @media screen and (max-width: 900px) {
 
-    #left-text,
-    #right-text {
+    #left-text {
         width: 80%;
-        text-align: center;
-        display: block;
-        clear: both;
+    }
+
+    #right-text {
+        text-align: left;
+        width: 80%;
+    }
+
+    #right-text p {
+        padding: 0 0 5% 3%;
     }
 
     #right-image {
