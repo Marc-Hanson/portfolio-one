@@ -189,6 +189,35 @@ span>p {
     padding-bottom: 1rem;
 }
 
+.text-input {
+    background: transparent;
+    color: #537188;
+    border: 1px solid #CBB279;
+    width: 100%;
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+}
+
+.text-input:hover {
+    border-color: #537188;
+}
+
+.join-button {
+    margin-top: 1rem;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 100%;
+    background-color: #CBB279;
+    border: 1px solid #537188;
+    color: #537188;
+    padding: 0.5rem;
+}
+
+.join-button:hover {
+    background-color: #E1D4BB;
+    color: #537188;
+}
+
 /* application successful */
 
 .application {
