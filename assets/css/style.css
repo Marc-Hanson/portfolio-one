@@ -10,7 +10,7 @@ body {
     background: #EEEEEE;
     font-family: 'Montserrat Alternates', sans-serif;
     font-weight: 300;
-    color: #537188;
+    color: #3C5062;
     text-align: center;
 }
 
@@ -27,12 +27,12 @@ body {
 /* heading and logo */
 
 #header {
-    background: #537188;
+    background: #3C5062;
     height: 18vh;
     width: 100%;
     position: absolute;
     top: 0;
-    border-bottom: solid 5px #CBB279;
+    border-bottom: solid 5px #D1BD89;
 }
 
 #logo {
@@ -46,7 +46,7 @@ body {
 
 #header h1 {
     padding-top: 10px;
-    color: #CBB279;
+    color: #D1BD89;
     font-family: 'Great Vibes', cursive;
     font-size: 6vmax;
 }
@@ -67,7 +67,7 @@ nav {
 
 #menu a {
     text-decoration: none;
-    color: #CBB279;
+    color: #D1BD89;
 }
 
 #menu a:hover {
@@ -75,7 +75,7 @@ nav {
 }
 
 .active {
-    border-bottom: 1px solid #CBB279;
+    border-bottom: 1px solid #D1BD89;
     font-weight: bold;
 }
 
@@ -88,7 +88,7 @@ nav {
 
 .about h2 {
     text-decoration-line: underline;
-    text-decoration-color: #CBB279;
+    text-decoration-color: #D1BD89;
 }
 
 #right-image {
@@ -149,8 +149,8 @@ nav {
     width: 100%;
     height: 10vh;
     padding-top: 20px;
-    background: #537188;
-    border-top: solid 5px #CBB279;
+    background: #3C5062;
+    border-top: solid 5px #D1BD89;
 }
 
 #footer li {
@@ -159,7 +159,7 @@ nav {
 
 #footer i {
     padding: 2%;
-    color: #CBB279;
+    color: #D1BD89;
 }
 
 #footer i:hover {
@@ -197,15 +197,15 @@ nav {
 
 .text-input {
     background: transparent;
-    color: #537188;
-    border: 1px solid #CBB279;
+    color: #3C5062;
+    border: 1px solid #D1BD89;
     width: 100%;
     margin-bottom: 1rem;
     padding: 0.5rem;
 }
 
 .text-input:hover {
-    border-color: #537188;
+    border-color: #3C5062;
 }
 
 .join-button {
@@ -213,15 +213,15 @@ nav {
     border-radius: 5px;
     text-align: center;
     font-size: 100%;
-    background-color: #CBB279;
-    border: 1px solid #537188;
-    color: #537188;
+    background-color: #D1BD89;
+    border: 1px solid #3C5062;
+    color: #3C5062;
     padding: 10px 20px;
 }
 
 .join-button:hover {
     background-color: #E1D4BB;
-    color: #537188;
+    color: #3C5062;
 }
 
 /* application successful */
