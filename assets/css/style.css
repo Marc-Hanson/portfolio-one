@@ -35,15 +35,6 @@ body {
     border-bottom: solid 5px #D1BD89;
 }
 
-#logo {
-    width: 125px;
-    height: 125px;
-    border-radius: 50%;
-    position: absolute;
-    left: 50px;
-    top: 20px;
-}
-
 #header h1 {
     padding-top: 10px;
     color: #D1BD89;
@@ -82,7 +73,7 @@ nav {
 /* about section */
 
 .about {
-    width: 60%;
+    width: 70%;
     margin: 0 auto;
 }
 
@@ -244,10 +235,6 @@ nav {
 
 @media screen and (max-width: 1200px) {
 
-    #logo {
-        display: none;
-    }
-
     .about {
         width: 100%;
     }
@@ -256,7 +243,6 @@ nav {
         column-count: 2;
         background-color: #000;
     }
-
 }
 
 /* responsive elements 900px and below */
