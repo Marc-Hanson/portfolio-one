@@ -140,7 +140,8 @@ A simple for is presented in the center of the page, no extra information and no
   - No errors were found when passing through the official [(Jigsaw) validator](http://jigsaw.w3.org/css-validator/validator?lang=en&profile=css3svg&uri=https%3A%2F%2Fmarc-hanson.github.io%2Fportfolio-one%2F&usermedium=all&vextwarning=&warning=1).
 
 - LIGHTHOUSE
-  - Excellent scores across Lighthouse ![Lighthouse score](/assets/readme-images/lighthouse.jpg).
+  - Excellent scores across Lighthouse
+  - ![Lighthouse score](/assets/readme-images/lighthouse.jpg).
 
 ### Unfixed Bugs
 
@@ -161,12 +162,12 @@ A simple for is presented in the center of the page, no extra information and no
 
 ## Credits
 
-Footer was either in the page, hugging the content. Or would be immobile and fix to the bottom of the original viewport.
-[Footer FiX](https://www.freecodecamp.org/news/how-to-keep-your-footer-where-it-belongs-59c6aa05c59c/)
+Footer was either in the page, hugging the content. Or would be immobile and fix to the bottom of the original viewport.<br>
+[Footer FiX](https://www.freecodecamp.org/news/how-to-keep-your-footer-where-it-belongs-59c6aa05c59c/)<br>
 Added extra 'wrapper' divs and 'content' divs across the entire site.
 
-Problems with form overlapping with Header/Footer on smaller devices.
-[CSS Form Scroll](https://stackoverflow.com/questions/36522474/css-form-scroll-overflow)
+Problems with form overlapping with Header/Footer on smaller devices.<br>
+[CSS Form Scroll](https://stackoverflow.com/questions/36522474/css-form-scroll-overflow)<br>
 This was resolved by adding a fixed height to the element.
 
 ## Media
