@@ -71,7 +71,7 @@ nav {
 }
 
 #menu a:hover {
-    color: #E1D4BB;
+    color: #EEEEEE;
 }
 
 .active {
@@ -163,7 +163,7 @@ nav {
 }
 
 #footer i:hover {
-    color: #E1D4BB;
+    color: #EEEEEE;
 }
 
 /* gallery */
@@ -220,7 +220,7 @@ nav {
 }
 
 .join-button:hover {
-    background-color: #E1D4BB;
+    background-color: #EEEEEE;
     color: #3C5062;
 }
 
