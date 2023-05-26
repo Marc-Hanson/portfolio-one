@@ -36,6 +36,11 @@ Flutterwing Academys site is live and is currently hosted [HERE!](https://marc-h
   - [Technologies Used](#technologies-used)
     - [Main Languages Used](#main-languages-used)
     - [Frameworks, Libraries \& Programs Used](#frameworks-libraries--programs-used)
+  - [Deployment](#deployment)
+    - [Using GitHub Pages](#using-github-pages)
+    - [How to Fork it](#how-to-fork-it)
+    - [How to Clone it](#how-to-clone-it)
+    - [Making a Local Clone](#making-a-local-clone)
   - [Credits](#credits)
   - [Media](#media)
 
@@ -134,8 +139,12 @@ A simple for is presented in the center of the page, no extra information and no
   ### Validator Testing
 
 - HTML
-  - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fmarc-hanson.github.io%2Fportfolio-one%2F).
+  ![index.html validation](/assets/readme-images/index-validation.jpg)
+  ![gallery.html validation](/assets/readme-images/gallery-validation.jpg)
+  ![form.html validation](/assets/readme-images/form-validation.jpg)
+  ![success.html validation](/assets/readme-images/success-validation.jpg)
 - CSS
+- ![style.css validation](/assets/readme-images/css-validation.jpg)
 
   - No errors were found when passing through the official [(Jigsaw) validator](http://jigsaw.w3.org/css-validator/validator?lang=en&profile=css3svg&uri=https%3A%2F%2Fmarc-hanson.github.io%2Fportfolio-one%2F&usermedium=all&vextwarning=&warning=1).
 
@@ -159,6 +168,45 @@ A simple for is presented in the center of the page, no extra information and no
 - Font Awesome - provides the icons used in the footer for social media pages.
 - Google Fonts - to import the Great Vibes and Montserrat font families.
 - GitHub - to import the CodeInstitute template from and to store my repository.
+
+## Deployment
+
+### Using GitHub Pages
+
+In the GitHub Repository from the project https://marc-hanson.github.io/portfolio-one/
+
+1. Click the 'Settings' Tab.
+2. Scroll Down to the Git Hub Pages Heading.
+3. Select 'Main Branch' as the source.
+4. The Page will reload 'Settings' again.
+5. Scroll to GitHub pages heading and there will now be a clickable link https://marc-hanson.github.io/portfolio-one/
+6. Click the link for the live deployed page.
+
+### How to Fork it
+
+1. On GitHub, go to [marc-hanson/portfolio-one](https://marc-hanson.github.io/portfolio-one/).
+2. In the top right, click "Fork".
+
+### How to Clone it
+
+1. Go to the main page of the repository.
+2. Above the file list, click "Code".
+3. Select HTTPS, SSH, or GitHub CLI and then click copy to clone it.
+4. Open Git Bash.
+5. Change the location of your cloned repository.
+6. Type `git clone` and then paste the URL you copied.
+7. Press “Enter” to create your clone.
+
+### Making a Local Clone
+
+1. Locate the [Repository](https://marc-hanson.github.io/portfolio-one/).
+2. Click "Code".
+3. Click Clone or Download.
+4. Copy the Git URL from the dialogue box.
+5. Open a terminal window in your choosen directory using your preferred development editor.
+6. Change the location to where you want the cloned directory to be.
+7. Type `git clone`, and then paste the URL you copied.
+8. Press Enter, and your local clone will be created.
 
 ## Credits
 
