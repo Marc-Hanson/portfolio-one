@@ -163,7 +163,7 @@ A simple for is presented in the center of the page, no extra information and no
 ## Credits
 
 Footer was either in the page, hugging the content. Or would be immobile and fix to the bottom of the original viewport.<br>
-[Footer FiX](https://www.freecodecamp.org/news/how-to-keep-your-footer-where-it-belongs-59c6aa05c59c/)<br>
+[Footer Fix](https://www.freecodecamp.org/news/how-to-keep-your-footer-where-it-belongs-59c6aa05c59c/)<br>
 Added extra 'wrapper' divs and 'content' divs across the entire site.
 
 Problems with form overlapping with Header/Footer on smaller devices.<br>
