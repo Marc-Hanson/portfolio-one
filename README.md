@@ -123,7 +123,6 @@ A simple for is presented in the center of the page, no extra information and no
 ### Future Features:
 
 - Expand gallery to 12-15 images.
-- A custom '404 Page not found' with matching stlye.
 - Live chatbot.
 - Parents only portal for calender view, sports events and menu page.
 

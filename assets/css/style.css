@@ -231,6 +231,22 @@ nav {
     padding-bottom: 1rem;
 }
 
+/* 404 */
+
+.lost {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.lost h2 {
+    font-size: 200%;
+    padding-bottom: 1rem;
+}
+
 /* responsive elements 1200px and below */
 
 @media screen and (max-width: 1200px) {
