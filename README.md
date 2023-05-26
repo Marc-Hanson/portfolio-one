@@ -6,7 +6,7 @@ It's targetted towards wizarding parents who wish for their children to have a m
 
 ![Site view across devices](/assets/readme-images/responsive.jpg)
 
-Flutterwing Academys site is live and is currently hosted [HERE](https://marc-hanson.github.io/portfolio-one/)
+Flutterwing Academys site is live and is currently hosted [HERE!](https://marc-hanson.github.io/portfolio-one/)
 
 ## Tabel of Content
 
@@ -27,6 +27,17 @@ Flutterwing Academys site is live and is currently hosted [HERE](https://marc-ha
     - [Existing Features](#existing-features)
       - [Navigation bar:](#navigation-bar)
       - [Landing Page:](#landing-page)
+      - [Gallery Page:](#gallery-page)
+      - [Apply Page:](#apply-page)
+    - [Future Features:](#future-features)
+  - [Testing](#testing)
+    - [Validator Testing](#validator-testing)
+    - [Unfixed Bugs](#unfixed-bugs)
+  - [Technologies Used](#technologies-used)
+    - [Main Languages Used](#main-languages-used)
+    - [Frameworks, Libraries \& Programs Used](#frameworks-libraries--programs-used)
+  - [Credits](#credits)
+  - [Media](#media)
 
 ## UX
 
@@ -60,7 +71,7 @@ Information is easily accessible and follows an intuitive design. The design is 
 
 ### Colour Scheme:
 
-The colour palette was chosen from ![Colorhunt](https://colorhunt.co/palette/537188cbb279e1d4bbeeeeee) and tweaked slightly to increase contrast across the page. Blue was chosen as the heading color as it's often seen as a sign of stability and reliability making a business feel official. A darker shade being used in contrast with the two shades of gold to give a feeling of regality and professionalism. Then a soft white used as a background to provide a bright and modren feeling without being harsh to view.
+The colour palette was chosen from 'Colorhunt' and tweaked slightly to increasecontrast across the page. Blue was chosen as the heading color as it's often seen as a sign of stability and reliability making a business feel official. A darker shade being used in contrast with the two shades of gold to give a feeling of regality and professionalism. Then a soft white used as a background to provide a bright and modren feeling without being harsh to view.
 
 ![Color Palette](/assets/readme-images/final-palette.jpg)
 
@@ -70,7 +81,7 @@ Great Vibes was chosen for the main heading of the website and Montserrat Altern
 
 ### Imagery:
 
-All the imagery on the sitewere sourced from free stock photo platforms and the sources are listed in the Credits section. Each photo provided supports the site's theme and attempts to display a fun and magical environment. 
+All the imagery on the sitewere sourced from free stock photo platforms and the sources are listed in the Credits section. Each photo provided supports the site's theme and attempts to display a fun and magical environment.
 
 ## Features
 
@@ -91,3 +102,84 @@ Providing two small paragraphs of text and an image to accompany the text, this 
 A footer section with social links to provide news and updates to users as quickly as possible.
 
 ![About us](/assets/readme-images/footer.jpg)
+
+#### Gallery Page:
+
+Large images with no spaces occupy the 100% of the page, 3 columns wide for large devices and 2 columns wide for smaller devices. The idea is to give visual evidence of the daily activites and inspire trust in the school at a very quick glance. No reading of headlines or descriptions, just images that speak for themselves. The is no space between the images and no overlap to allow all of the content to viewed with no other distractions.
+
+![Gallery](/assets/readme-images/gallery.jpg)
+
+#### Apply Page:
+
+A simple for is presented in the center of the page, no extra information and not demanding. Asking only the essential information and linked to a confirmation page when complete the affirm the user their application was correctly submitted.
+
+![Applications](/assets/readme-images/apply.jpg)
+
+### Future Features:
+
+- Expand gallery to 12-15 images.
+- A custom '404 Page not found' with matching stlye.
+- Live chatbot.
+- Parents only portal for calender view, sports events and menu page.
+
+## Testing
+
+- The website was constantly tested during development using Chrome development tools.
+- Tested the application form with and without inputs in all fields.
+- Tested all links on all pages.
+- Verified that the contact form cannot be submitted without the required information (First Name, Last Name, Email and Childs Name) and once the information is submitted an 'Application Successful' page is displayed.
+- Website tested in Chrome, Firefox and Microsoft Edge.
+- To improve web performance, all images fwre reformatted to WebP, which provides better compression.
+
+  ### Validator Testing
+
+- HTML
+  - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fmarc-hanson.github.io%2Fportfolio-one%2F).
+- CSS
+
+  - No errors were found when passing through the official [(Jigsaw) validator](http://jigsaw.w3.org/css-validator/validator?lang=en&profile=css3svg&uri=https%3A%2F%2Fmarc-hanson.github.io%2Fportfolio-one%2F&usermedium=all&vextwarning=&warning=1).
+
+- LIGHTHOUSE
+  - Excellent scores across Lighthouse ![Lighthouse score](/assets/readme-images/lighthouse.jpg).
+
+### Unfixed Bugs
+
+## Technologies Used
+
+### Main Languages Used
+
+- HTML5
+- CSS3
+
+### Frameworks, Libraries & Programs Used
+
+- Am I Responsive? - to ensure the project looked good across all devices.
+- CodeAnywhere - was the chosen IDE to write both HTML and CSS before pushing the project to Github.
+- Font Awesome - provides the icons used in the footer for social media pages.
+- Google Fonts - to import the Great Vibes and Montserrat font families.
+- GitHub - to import the CodeInstitute template from and to store my repository.
+
+## Credits
+
+Footer was either in the page, hugging the content. Or would be immobile and fix to the bottom of the original viewport.
+[Footer FiX](https://www.freecodecamp.org/news/how-to-keep-your-footer-where-it-belongs-59c6aa05c59c/)
+Added extra 'wrapper' divs and 'content' divs across the entire site.
+
+Problems with form overlapping with Header/Footer on smaller devices.
+[CSS Form Scroll](https://stackoverflow.com/questions/36522474/css-form-scroll-overflow)
+This was resolved by adding a fixed height to the element.
+
+## Media
+
+The following images came from Unsplash:
+
+- [Artem Maltsev](https://unsplash.com/photos/3n7DdlkMfEg)
+- [Cederic Vandenberghe](https://unsplash.com/photos/21DP3hytVHw)
+- [Jaredd Craig](https://unsplash.com/photos/HH4WBGNyltc)
+- [Henry Be](https://unsplash.com/photos/lc7xcWebECc)
+- [Meritt Thomas](https://unsplash.com/photos/zqIOvV-D3JQ)
+- [Aditya Saxena](https://unsplash.com/photos/tj24rcDcmkY)
+- [Ethan Hoover](https://unsplash.com/photos/RhZ-Tl0QVqo)
+- [Leo Rivas](https://unsplash.com/photos/SHRc2LNaskE)
+
+[Back to top](#Flutterwing-Academy)
