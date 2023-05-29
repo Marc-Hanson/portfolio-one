@@ -29,6 +29,7 @@ Flutterwing Academys site is live and is currently hosted [HERE!](https://marc-h
       - [Landing Page:](#landing-page)
       - [Gallery Page:](#gallery-page)
       - [Apply Page:](#apply-page)
+      - [Validation and Page not Found:](#validation-and-page-not-found)
     - [Future Features:](#future-features)
   - [Testing](#testing)
     - [Validator Testing](#validator-testing)
@@ -119,6 +120,13 @@ A simple for is presented in the center of the page, no extra information and no
 
 ![Applications](/assets/readme-images/apply.jpg)
 
+#### Validation and Page not Found:
+
+A validation page was added to be displayed after the form has been completed to provide visual feedback to the user and a custom 'Page not found' was also used to keep consistent styles across all aspects of the website.
+
+![Success](/assets/readme-images/success.jpg)
+![Page not found](/assets/readme-images/404.jpg)
+
 ### Future Features:
 
 - Expand gallery to 12-15 images.
@@ -137,15 +145,15 @@ A simple for is presented in the center of the page, no extra information and no
   ### Validator Testing
 
 - HTML<br>
-  ![index.html validation](/assets/readme-images/index-validation.jpg)
-  ![gallery.html validation](/assets/readme-images/gallery-validation.jpg)
-  ![form.html validation](/assets/readme-images/form-validation.jpg)
-  ![success.html validation](/assets/readme-images/success-validation.jpg)
-- CSS<br>
-- ![style.css validation](/assets/readme-images/css-validation.jpg)
-
-  - No errors were found when passing through the official [(Jigsaw) validator](http://jigsaw.w3.org/css-validator/validator?lang=en&profile=css3svg&uri=https%3A%2F%2Fmarc-hanson.github.io%2Fportfolio-one%2F&usermedium=all&vextwarning=&warning=1).
-
+  - HTML pages passed validation on W3C.
+    ![index.html validation](/assets/readme-images/index-validation.jpg)
+    ![gallery.html validation](/assets/readme-images/gallery-validation.jpg)
+    ![form.html validation](/assets/readme-images/form-validation.jpg)
+    ![success.html validation](/assets/readme-images/success-validation.jpg)
+    ![lost.html validation](/assets/readme-images/lost-validation.jpg)
+- CSS
+  - CSS page passed validation on W3C.  
+    ![style.css validation](/assets/readme-images/css-validation.jpg)
 - LIGHTHOUSE
   - Excellent scores across Lighthouse
   - ![Lighthouse score](/assets/readme-images/lighthouse.jpg).
