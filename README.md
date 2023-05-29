@@ -136,12 +136,12 @@ A simple for is presented in the center of the page, no extra information and no
 
   ### Validator Testing
 
-- HTML
+- HTML<br>
   ![index.html validation](/assets/readme-images/index-validation.jpg)
   ![gallery.html validation](/assets/readme-images/gallery-validation.jpg)
   ![form.html validation](/assets/readme-images/form-validation.jpg)
   ![success.html validation](/assets/readme-images/success-validation.jpg)
-- CSS
+- CSS<br>
 - ![style.css validation](/assets/readme-images/css-validation.jpg)
 
   - No errors were found when passing through the official [(Jigsaw) validator](http://jigsaw.w3.org/css-validator/validator?lang=en&profile=css3svg&uri=https%3A%2F%2Fmarc-hanson.github.io%2Fportfolio-one%2F&usermedium=all&vextwarning=&warning=1).
