@@ -144,15 +144,15 @@ A validation page was added to be displayed after the form has been completed to
 
   ### Validator Testing
 
-- HTML<br>
-  - HTML pages passed validation on W3C.
+- HTML
+  - HTML pages passed validation on W3C. <br>
     ![index.html validation](/assets/readme-images/index-validation.jpg)
     ![gallery.html validation](/assets/readme-images/gallery-validation.jpg)
     ![form.html validation](/assets/readme-images/form-validation.jpg)
     ![success.html validation](/assets/readme-images/success-validation.jpg)
     ![lost.html validation](/assets/readme-images/lost-validation.jpg)
 - CSS
-  - CSS page passed validation on W3C.  
+  - CSS page passed validation on W3C. <br>
     ![style.css validation](/assets/readme-images/css-validation.jpg)
 - LIGHTHOUSE
   - Excellent scores across Lighthouse
