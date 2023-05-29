@@ -38,9 +38,8 @@ Flutterwing Academys site is live and is currently hosted [HERE!](https://marc-h
     - [Frameworks, Libraries \& Programs Used](#frameworks-libraries--programs-used)
   - [Deployment](#deployment)
     - [Using GitHub Pages](#using-github-pages)
-    - [How to Fork it](#how-to-fork-it)
-    - [How to Clone it](#how-to-clone-it)
-    - [Making a Local Clone](#making-a-local-clone)
+    - [Fork Project](#fork-project)
+    - [Clone Project](#clone-project)
   - [Credits](#credits)
   - [Media](#media)
 
@@ -172,7 +171,7 @@ A simple for is presented in the center of the page, no extra information and no
 
 ### Using GitHub Pages
 
-In the GitHub Repository from the project https://marc-hanson.github.io/portfolio-one/
+Github Repository or project - https://marc-hanson.github.io/portfolio-one/
 
 1. Click the 'Settings' Tab.
 2. Scroll Down to the Git Hub Pages Heading.
@@ -181,12 +180,12 @@ In the GitHub Repository from the project https://marc-hanson.github.io/portfoli
 5. Scroll to GitHub pages heading and there will now be a clickable link https://marc-hanson.github.io/portfolio-one/
 6. Click the link for the live deployed page.
 
-### How to Fork it
+### Fork Project
 
 1. On GitHub, go to [marc-hanson/portfolio-one](https://marc-hanson.github.io/portfolio-one/).
 2. In the top right, click "Fork".
 
-### How to Clone it
+### Clone Project
 
 1. Go to the main page of the repository.
 2. Above the file list, click "Code".
@@ -195,17 +194,6 @@ In the GitHub Repository from the project https://marc-hanson.github.io/portfoli
 5. Change the location of your cloned repository.
 6. Type `git clone` and then paste the URL you copied.
 7. Press “Enter” to create your clone.
-
-### Making a Local Clone
-
-1. Locate the [Repository](https://marc-hanson.github.io/portfolio-one/).
-2. Click "Code".
-3. Click Clone or Download.
-4. Copy the Git URL from the dialogue box.
-5. Open a terminal window in your choosen directory using your preferred development editor.
-6. Change the location to where you want the cloned directory to be.
-7. Type `git clone`, and then paste the URL you copied.
-8. Press Enter, and your local clone will be created.
 
 ## Credits
 
